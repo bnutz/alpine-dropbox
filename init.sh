@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# This script is to create a new user with the given user and group ID and run the specified command as him.
+# This script is to create a new user with the given user and group ID to run commands under.
 
 UID=${UID:-1000}
 GID=${GID:-1000}
